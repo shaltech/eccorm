@@ -1,0 +1,788 @@
+/* :: 1.0 Import Web Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+/* :: 2.0 Import All CSS */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+  ul {
+    margin-block-start: 0 !important;
+    padding-inline-start: 0 !important;
+    }  
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1d1d1d;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+p {
+    color: #838383;
+    font-size: 15px;
+    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a:focus {
+    outline: 0 solid;
+}
+
+a,
+a:hover,
+a:focus {
+    -webkit-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+    text-decoration: none;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.btn-green{
+  background-color: green;
+  color: white;
+  outline: none;
+  border: 1px #f2f2f2 solid;
+  border-radius: 5px;
+  width: 150px;
+  padding: 15px 25px 15px 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  height: 70px;
+}
+
+.btn-green-small{
+  background-color: green;
+  color: white;
+  outline: none;
+  border: 1px #f2f2f2 solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.btn-white-green{
+  background-color: white;
+  color: green;
+  outline: none;
+  width: 200px;
+  border: 1px green solid;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  height: 70px;
+}
+
+.btn-white{
+  background-color: white;
+  color: green;
+  outline: none;
+  border: 1px white solid;
+  width: 30%;
+  padding: 0px 20px 0px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.btn-orange{
+  background-color: orange;
+  color: white;
+  outline: none;
+  border: 1px orange solid;
+  width: 30%;
+  border-radius-right: 5px;
+  padding: 0px 20px 0px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.btn-gray{
+  background-color: #f2f2f2;
+  color: green;
+  outline: none;
+  border: 1px #f2f2f2 solid;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  height: 70px;
+}
+
+.btn-gray > .fa{
+  -webkit-text-fill-color: #f2f2f2;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: green;
+}
+
+
+
+.mr-5{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.left-rd{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.right-rd{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    top: 0;
+    margin-left: -8px; 
+}
+
+
+.container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container .logo {
+  margin-top: -40px;
+  margin-right: 250px;
+  max-width: 250px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.container .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
+}
+
+.container .logo a img {
+  max-width: 100%;
+  max-height: 60px;
+}
+
+.container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.container .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container .navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  height: 60px;
+  /*line-height: 60px;*/
+  cursor: pointer;
+  padding: 20 40px;
+}
+
+/*.container .navbar ul li a:hover {
+  color: #ffffff;
+  background-color: rgba(23, 23, 23, 0.9);
+}*/
+
+.container .navbar ul .close {
+  display: none;
+  text-align: right;
+  padding: 10px;
+}
+
+.container .navbar ul .close span {
+  font-size: 40px;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.container .navbar .icon-bar {
+  padding: 18px 8px;
+  width: 50px;
+  height: 60px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.container .navbar .icon-bar i {
+  background-color: #ffffff;
+  height: 2px;
+}
+
+aside {
+  /*position: relative;*/
+  width: 17%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+}
+
+.pd-10{
+  padding-bottom: 10px;
+}
+
+.pd-20{
+  padding-bottom: 20px;
+}
+
+.col-center{
+  padding: 0px 5% 0px 5%;
+}
+.md-center{
+  margin: 70px 0px 20px 0px;
+  background-color: green;
+  text-align: center;
+}
+
+.md-center > .pd-5 > h2{
+  color: white;
+  font-weight: 900;
+}
+
+.md-center > .pd-5 > p{
+  color: white;
+}
+
+.checked {
+  color: orange;
+}
+
+/*flex for product*/
+.flex-container {
+  display: flex;
+}
+
+.product-flex-container{
+  display: flex;
+}
+
+.footer-flex-container{
+  display: flex;
+}
+
+.inner-footer-flex-container{
+  display: flex;
+}
+.card-flex-container {
+  display: flex;
+}
+
+
+.flex-rate{
+  display: flex;
+}
+
+.navbar-brand{
+  padding-top: 20px;
+  float: left;
+  margin-right: 250px;
+}
+
+.pd-5{
+  padding-top: 20px;
+}
+.hr-5{
+  border-bottom: 1px solid   #f2f2f2;
+}
+
+/*.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}*/
+
+/*search field */
+.main-container{
+  padding-bottom: 20px;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  margin-left:10px;
+  padding: 10px 0px 10px 10px;
+  color: gray;
+  background-color: white;
+  text-align: center;
+}
+
+.input-field {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.input-field:focus {
+  
+}
+
+/* Set a style for the submit button */
+.btn {
+  
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/*search end*/
+
+.colorlist {
+  list-style: none;
+}
+
+.colorlist li::before {
+  content: "\2022";
+  color: green;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.main-product{
+  padding-right: 27px;
+  padding-top: 15px;
+}
+
+.product-desc > h3{
+  margin-bottom: -1px;
+}
+
+.desc-rating > .fa{
+  font-size: 12px;
+}
+
+
+.desc-rating > .reviews{
+  font-size: 12px;
+  padding-left: 5px;
+  font-weight: 500;
+  color: #d9d9d9;
+}
+
+.desc-rating > .sub-rev > a{
+  font-size: 13px;
+  padding-left: 5px;
+  color: blue;
+}
+
+.pro-qnty{
+  padding-right: 70px;
+}
+
+
+
+.cl-green > h2{
+   font-weight: 700;
+  color: green;
+  margin-top: -15px;
+}
+
+/*decrement and increment*/
+
+.item-count {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: fit-content;
+  height: 70px;
+  background-color: #d9d9d9;
+  border-radius: 6px;
+}
+
+.item-count > input {
+  /* Tell the input to use all the available space */
+  
+  /* And hide the input's outline, so the form looks like the outline */
+
+  width: 30px;
+  margin-left: 30px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  background: none;
+  border:none;
+}
+
+.item-count > input:focus {
+  /* removing the input focus blue box. Put this on the form if you like. */
+  outline: none;
+}
+
+.item-count > button {
+  /* Just a little styling to make it pretty */
+  border: none;
+  background:none;
+  color:green;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.add-cart{
+  margin-right: 20px;
+}
+
+/*product image overlay*/
+#overlayimg,
+#imgbg {
+  /*width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;*/
+}
+#infoi {
+  z-index: 10;
+}
+
+.product-flex-container > .flex-content > .main-img > img {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  margin-bottom: 20px;  
+}
+
+.product-flex-container > .flex-content > .flex-container > .sub-image {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+
+.product-flex-container > .flex-content > .flex-container > .sub-image > img{
+  object-fit: contain;
+}
+
+.product-flex-container > .flex-content > .flex-container > .first {
+margin-right: 30px;
+}
+
+.product_color{
+  padding-right: 35px;
+}
+
+.m-box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+
+.black{
+  background-color: black;
+}
+
+.white{
+  background-color: white;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.m-box:focus{
+  
+}
+
+.product-size{
+  margin-top: -25px;
+  margin-bottom: -15px;
+}
+
+.size{
+  margin-top: 19px;
+  margin-left: 30px;
+  height: fit-content;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 0px 10px 0px 10px;
+}
+
+.size-select{
+  border: none ;
+  width: 60px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.product-cart{
+  padding: 20px 20px 10px 0px;
+}
+
+.product-request{
+  float:left;
+  margin-right: 80px;
+}
+
+.product_buy{
+  padding-top: 30px;
+}
+
+.other-details{
+  padding-right: 90px;
+}
+
+.other-details > .cl-black {
+  font-weight: bold;
+  color: black;
+}
+
+table  {
+  border: 1px black solid;
+}
+
+td {
+  border-bottom: 1px black solid;
+  padding: 30px;
+}
+
+.dis_img{
+  margin-bottom: 30px;
+}
+
+.dis_subimg{
+  width: 100%;
+}
+
+.dis_subimg img {
+ border-radius: 5px;
+  width: 600px;
+  margin-bottom: 30px ;
+}
+
+.card-div{
+  padding-right: 100px;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 18%;
+  height: 330px;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.other-card {
+
+  padding: 5px;
+}
+
+.other-card > p {
+   font-size: 14px;
+   color: black;
+}
+
+.other-card > img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.card{
+  background-color: #f2f2f2;
+  width: 500px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card h1 {
+  font-size: 80px;
+  margin-bottom: -1px;
+}
+
+.card .fa {
+  padding: 4px;
+  font-size: 40px;
+}
+
+.product_card{
+  padding-right: 10px;
+}
+
+.product_card img {
+
+  border-radius: 30px;
+}
+
+#footer{
+   background: #fff;
+  padding: 60px 0 30px 0;
+  color: #444444;
+  font-size: 14px;
+}
+
+#footer > .col-center > .footer-content > .footer-flex-container > .footer-info >  ul {
+   list-style: none;
+}
+
+.inner-footer-flex-container > .footer-info >  ul {
+   list-style: none;
+}
+
+.footer-main{
+  width: 30%;
+  height: fit-content;
+  padding-top: 30px;
+  float: left;
+}
+
+.footer-main > p {
+  color: black;
+}
+
+.footer-info{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.footer-first{
+  float:left;
+}
+
+.copyright > .flex-container{
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.inner{
+    padding-right: 30px;
+  padding-left: 30px;
+}

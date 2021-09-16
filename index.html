@@ -1,0 +1,680 @@
+<html>
+
+	<head>
+		<!-- css styling -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- Font Awesome Icon Library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<header>
+			
+				<div class="container col-center">
+    			<div class="logo">
+        			<a href="#"><img src="images/logo.png" alt="logo"></a>
+    			</div>
+				<div class="navbar">
+
+					<div class="icon-bar" onclick="Show()">
+    					<i class="fa fa-bars" style="font-size:30px;"></i>
+					</div>
+
+					<ul id="nav-lists">
+    					<li class="close"><span onclick="Hide()">×</span></li>
+    					<li><a href="#">Home</a></li>
+    					<li><a href="#">Services</a></li>
+    					<li><a href="#">Help</a></li>
+    					<li><a href="#">Eng <i class="arrow down"></i></a></li>
+    					<li><a href="#"><i class="fa fa-shopping-cart" style="font-size: 22px;"></i> <span class="badge badge-warning" id="lblCartCount">2</span> Cart</a></li>
+    					<li><a href="#"><i class="fa fa-bell" style="font-size: 22px;"></i> <span class="badge badge-warning" id="lblCartCount">20</span></a></li>
+					</ul>
+
+				</div>
+			</div>
+			<!-- <div class="topnav" id="myTopnav">
+				
+				<a class="navbar-brand" href="index-2.html"><img src="images/logo.png" alt="Logo"></a>
+				<div class="nav">
+ 					<a href="#" class="active">Home</a>
+  					<a href="#">Services</a>
+  					<a href="#">Help</a>
+  					<a href="#">ENG</a>
+  					<a href="#"><i class="fa fa-shopping-cart" style="font-size: 20px;"><span class="badge badge-warning" id="lblCartCount">2</span></i></a>
+  					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  				  		<i class="fa fa-bars"></i>
+ 				 	</a>
+ 				 </div>
+			</div> -->
+
+		</header>
+
+		<section class="md-center">
+			<div class="pd-5 mr-5">
+					<h2>
+						Nigeria's Biggest B2B ECommerce Platform
+					</h2>
+					<p>
+						One stop site for connecting businesses through ecommerce
+					</p>
+					<div class="main-container">
+				
+						<div class="input-container">
+							<button class="btn-white left-rd">Sell on min</button>
+    						<i class="fa fa-search icon"></i>
+    						<input class="input-field" type="text" placeholder="Search by product name or category" name="search">
+    						<button class="btn-orange right-rd">Search</button>
+  						</div>
+					</div>
+			</div>
+		</section>
+
+		<section class="col-center">
+			<aside>
+				<div class="hr-5">
+					<h3>Delivery</h3>
+					<p>This product can only be shipped to Lagos, Ibadan Abuja Benin, Kano, Kaduna Ogun, Portharcourt and sokoto.</p>
+				</div>
+				<div class="hr-5">
+					<h3>Shipping Method</h3>
+					<h4>Available Shipping cargo:</h4>
+					<ul class="colorlist">
+  						<li>Express shipping by DHL</li>
+  						<li>Gig logistics</li>
+  						<li>Min shipping cargos</li>
+ 						<li>DHL Regular</li>
+					</ul>
+				</div>
+				<div class="hr-5">
+					<h3>Return policy</h3>
+					<p>
+						Free return within 15 days for Min shipping cargos items and 7 days for other eligible items. <a href="#" style="text-decoration: underline;">terms and condition</a> apply
+					</p>
+				</div>
+				<div class="hr-5">
+					<h3>Warranty</h3>
+					<p>1 year warranty</p>
+				</div>
+				<div class="hr-5" style="padding-bottom: 20px;">
+					<h3>Seller's information Tripple B'n'B</h3>
+					<p>Verified by Min.org</p>
+					<p>1200 Followers</p>
+					<p><a href="#" style="text-decoration:underline;">Contact</a></p>
+					<p><a href="#" style="text-decoration:underline;">See more</a></p>
+					<button class="btn-green">Follow</button>
+				</div>
+				<div>
+					<h3>Seller's Rating</h3>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				</div>
+			</aside>
+
+			<div class="product-flex-container ">
+  				<div class="flex-content main-product">
+  					<div class="main-img">
+  						<img src="images/product/b2.jpg">
+  					</div>
+  					<div class="flex-container">
+  						<div class="sub-image first">
+  							<img src="images/product/i6.jpg">
+  						</div>
+  						<div id="imgbg" class="sub-image">
+  							<!-- <div id="overlayimg">+2</div> -->
+    						<img src="images/product/i4.jpg" />
+ 						</div>
+  					</div>
+  				</div>
+  				<div class="flex-content" style="flex-grow: 8">
+  					<div class="product-desc pd-10  ">
+  						<h2>
+  							Nike Airmax 720 React
+  						</h2>
+  						<div class="desc-rating hr-5">
+  							
+  							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="reviews">0 reviews </span>
+							<span class="sub-rev"><a href="#">Submit a review</a></span>
+						</div>
+					</div>
+					<div class=" product-desc hr-5">
+						<h3>Price</h3>
+						<div class="flex-container">
+							<div class="pro-qnty cl-green">
+								<p>1 - 100pieces</p>
+								<h2>#1000</h2>
+							</div>
+							<div class="pro-qnty cl-green">
+								<p>100 - 1000pieces</p>
+								<h2>#900</h2>
+							</div>
+							<div class="cl-green">
+								<p>>1000pieces</p>
+								<h2>#800</h2>
+							</div>
+						</div>
+					</div>
+					<div class=" hr-5">
+						<p>Unit available: <span>200</span></p>
+						<h3>Select colour</h3>
+						<div class="flex-container">
+							<div class="product_color">
+								<div class="m-box black"></div>
+								<p>Black</p>
+							</div>
+							<div class="product_color">
+								<div class="m-box White"></div>
+								<p>White</p>
+							</div>
+							<div class="product_color">
+								<div class="m-box red"></div>
+								<p>red</p>
+							</div>
+							<div class="product_color">
+								<div class="m-box blue"></div>
+								<p>blue</p>
+							</div>
+							<div class="product_color">
+								<div class="m-box green"></div>
+								<p>green</p>
+							</div>
+							<div class="product_color">
+								<div class="m-box yellow"></div>
+								<p>yellow</p>
+							</div>
+						</div>
+						<div class="flex-container product-size">
+							<h3>Sizes</h3>
+ 							<div class="size">
+ 								<select class="size-select">
+    								<option value="38">38</option>
+   									<option value="39">39</option>
+ 								</select>
+ 							</div>
+							<!-- <div class="" style="width:200px;"> -->
+  								
+							<!-- </div> -->
+						</div>
+						<p>Minimum Order: <span style="color:black;">1 Dozen</span></p>
+					</div>
+					<div class="product-cart hr-5">
+						<div class="cart-first" style="float:right;">
+							<div class="flex-container">
+								<div class="add-cart">
+									<button class="btn-gray">
+										<i class="fa fa-shopping-cart"></i> Add To Cart
+									</button>
+								</div>
+								<div>
+									<button class="btn-gray"><i class="fa fa-heart"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="flex-container item-count">
+                			<button action="remove">-</button>
+                			<input type="text" min="1" value="2">
+                			<button action="add">+</button>
+            			</div>
+					</div>
+					<div class="product_buy">
+						<div class="product-request" >
+							<button class="btn-white-green">Request for Sample</button>
+						</div>
+						<div class="">
+							<button class="btn-green">Buy now</button>
+						</div>
+					</div>
+  				</div>  
+			</div>
+
+			<div class="product-d">
+			<h3>Product description</h3>
+
+			<p><span style="font-weight: bold;">Appearance</span></p>
+			<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+			<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+			<p>Epcot was amazing! I had a great summer together with my family!</p>
+
+			<p><span style="font-weight: bold;">Comfort</span></p>
+			<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+			<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+			<p><span style="font-weight: bold;">Durability</span></p>
+			<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+			<p><span style="font-weight: bold;">Strenght</span></p>
+			<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+			<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+			</div>
+		</section>
+
+		<section class="col-center">
+			<div class="other-details-d">
+				<h3>Other details</h3>
+				<div class="flex-container">
+					<div class="other-details">
+						<p>Brand name: <a class="cl-black">Nike</a></p>
+					</div>
+					<div class="other-details">
+						<p>Model name: <a class="cl-black">Air 720</a></p>
+					</div>
+					<div class="other-details">
+						<p>Payment term: <a class="cl-black">Payment in installment & Full payment. <a href="" style="text-decoration:underline">Terms & Conditions</a> apply
+						</a></p>
+					</div>
+				</div>
+				<p>Delivery states: Lagos, Ibadan, Abuja, Benin, Kano, Kaduna, Ogun, Portharcourt, and sokoto.</p>
+				<p>Warranty: 1 year warranty</p>
+
+			</div>
+		</section>
+
+		<section class="col-center" >
+			<div class="hr-5">
+			<h3>Key features</h3>
+			<table style="width: 100%;">
+				<tr><td>Screen: 6.5 inch screen</td></tr>
+				<tr><td>Battery: 5,000Mah</td></tr>
+				<tr><td>Memory: 2/32GB</td></tr>
+				<tr><td>Camera: Rear Camera - 13.0 MP</td></tr>
+				<tr><td>Sim: Dual SIM</td></tr>
+				<tr><td style="border-bottom: none !important;">Guantanty: 24-month Warranty</td></tr>
+			</table>
+			<h3>Specification</h3>
+			<table style="width:100%; margin-bottom: 20px;">
+				<tr><td>Weight:</td></tr>
+				<tr><td>Length:</td></tr>
+				<tr><td>Breadth:</td></tr>
+				<tr><td>Height:</td></tr>
+				<tr><td>Unit Dimension</td></tr>
+				<tr><td style="border-bottom: none !important;">Material:</td></tr>
+			</table>
+			</div>
+		</section>
+
+		<section class="col-center">
+			<div class="hr-5">
+				<h3>Product Gallery</h3>
+				<div class="dis_img">
+					<img src="images/product/cta-bg.jpg">
+				</div>
+				<div class="flex-container dis_subimg">
+
+					<div style="padding-right: 30px;">
+				
+						<img src="images/product/gallery-1.jpg">
+				
+						<img src="images/product/gallery-2.jpg">
+				
+						<img src="images/product/gallery-3.jpg">
+				
+						<img src="images/product/gallery-4.jpg">
+					</div>
+					<div>
+				
+						<img src="images/product/gallery-5.jpg">
+				
+						<img src="images/product/gallery-6.jpg">
+				
+						<img src="images/product/gallery-7.jpg">
+				
+						<img src="images/product/gallery-8.jpg">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="col-center">
+			<div class="hr-5">
+				<h3>Product certificate:</h3>
+				<div class="flex-container dis_subimg">
+
+					<div style="padding-right: 30px;">
+				
+						<img src="images/product/gallery-9.jpg">
+				
+					</div>
+					<div>
+				
+						<img src="images/product/gallery-5.jpg">
+				
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="col-center">
+			<div>
+			<div>
+				<button style="float:right;" class="btn-green-small">See all <i class="fa fa-arrow-right"></i></button>
+				<h3>Customers feedback and product rating:</h3>
+			</div>
+			<div class="flex-rate">
+				<div class="card-div">
+					<h3>Product rating</h3>
+					<div class="card">
+						<h1>4/5</h1>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+						<h3>2500 ratings</h3>
+					</div>
+				</div>
+				<div>
+					<h3>Product reviews</h3>
+					<div class="">
+                    	<div class="flex-container">   
+							<div style="padding-right:40px;">
+								<p>Adebunmi Adeagbo:</p>
+								<h4>Jan 10, 2021 4:56pm</h4>
+							</div>
+							<div>
+								<p>Great product and easy to maintain</p>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+							</div>
+						</div>
+						<div class="flex-container">
+							<div style="padding-right:40px;">
+								<p>Dansaki Abdul:</p>
+								<h4>Jan 10, 2021 4:56pm</h4>
+							</div>
+							<div>
+								<p>Very nice product but a little bit heavy</p>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+							</div>
+						</div>
+						<div class="flex-container">
+							<div style="padding-right:40px;">
+								<p>Ifeoma Patrick:</p>
+								<h4>Jan 10, 2021 4:56pm</h4>
+							</div>
+							
+							<div>
+								<p>This product is not so bad for the price but <br> can be improved on</p>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+							</div>
+						</div>
+						<div class="flex-container">
+							<div style="padding-right:40px;">
+								<p>Anonymous:</p>
+								<h4>Jan 10, 2021 4:56pm</h4>
+							</div>
+							
+							<div>
+								<p>Great product and easy to maintain</p>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			</div>
+		</section>
+
+		<section class="col-center">
+			<div>
+				<div>
+					<button style="float:right;" class="btn-green-small">See all <i class="fa fa-arrow-right"></i></button>
+					<h3>More from this seller</h3>
+				
+				</div>
+
+				<div class="row">
+  						<div class="column">
+  							<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Complete female sport outfit</p>
+      							<h4><span>N</span>45,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+  							<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Female heal boots</p>
+      							<h4><span>N</span>15,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+  							<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Leather baby stroller</p>
+      							<h4><span>N</span>15,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+    						<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Brand new Iphone SE</p>
+      							<h4><span>N</span>250,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+    						<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Brand new Iphone SE</p>
+      							<h4><span>N</span>250,000</h4>
+    						</div>
+    					</div>
+				</div>
+		
+
+		</div>
+			
+		</section>
+
+		<section class="col-center">
+			<div>
+				<div>
+					<button style="float:right;" class="btn-green-small">See all <i class="fa fa-arrow-right"></i></button>
+					<h3>People that bought this product also viewed</h3>
+				</div>
+				<div class="row">
+  						<div class="column">
+  							<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Complete female sport outfit</p>
+      							<h4><span>N</span>45,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+  							<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Female heal boots</p>
+      							<h4><span>N</span>15,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+  							<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Leather baby stroller</p>
+      							<h4><span>N</span>15,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+    						<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Brand new Iphone SE</p>
+      							<h4><span>N</span>250,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+    						<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Brand new Iphone SE</p>
+      							<h4><span>N</span>250,000</h4>
+    						</div>
+    					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="col-center">
+
+			<div>
+				<div>
+					<button style="float:right;" class="btn-green-small">See all <i class="fa fa-arrow-right"></i></button>
+					<h3>Recently viewed products</h3>
+				</div>
+				<div class="row">
+  						<div class="column">
+  							<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Complete female sport outfit</p>
+      							<h4><span>N</span>45,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+  							<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Female heal boots</p>
+      							<h4><span>N</span>15,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+  							<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Leather baby stroller</p>
+      							<h4><span>N</span>15,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+    						<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Brand new Iphone SE</p>
+      							<h4><span>N</span>250,000</h4>
+    						</div>
+    					</div>
+    					<div class="column">
+    						<div class="other-card">
+    							<img src="images/product/testimonials-2.jpg">
+     							<p>Brand new Iphone SE</p>
+      							<h4><span>N</span>250,000</h4>
+    						</div>
+    					</div>
+				</div>
+			</div>
+			
+		</section>
+
+		<footer id="footer">
+			<div class="col-center">
+
+				<div class="footer-main" >
+					<div class="footer-logo">
+						<img src="images/logo.png" alt="Logo">
+					</div>
+					<p>min.ng is Nigeria's #1 B2B market for made  in Nigeria goods. We offer a wide array of ready-to-ship and customizable products in Food & Beverages, Fashion, Mechanical Parts & Fabrication Services, Auto and Transportation, Health & Beauty, Furniture and Their categories</p>
+				</div>
+				<div class="footer-content">
+					<div class="inner-footer-flex-container footer-first">
+						<div class="footer-info">
+							<h4>About Us</h4>
+							<ul>
+								<li>Our Mission</li>
+								<li>Our Vision</li>
+								<li>Who we are</li>
+							</ul>
+						</div>
+						<div class="footer-info">
+							<h4>Our Partners</h4>
+							<ul>
+								<li>Partners</li>
+								<li>Premium</li>
+								<li>Partners</li>
+								<li>Logistics</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-flex-container">
+						<div class="footer-info">
+							<h4>Our Services</h4>
+							<ul>
+								<li>Trade Finance</li>
+								<li>Marketing</li>
+								<li>Services</li>
+								<li>Business</li>
+								<li>Verification</li>
+								<li>Inventory</li>
+								<li>Subscription</li>
+							</ul>
+						</div>
+						<div class="footer-info">
+							<h4>Sell on min.ng</h4>
+							<ul>
+								<li>Create store</li>
+								<li>Manage</li>
+								<li>Inventory</li>
+							</ul>
+						</div>
+						<div class="footer-info">
+							<h4>Contact us</h4>
+							<ul>
+								<li><a href="#">info@min.ng</a></li>
+								<li>09090000452</li>
+								<li>
+									<span><i class="fa fa-twitter"></i></span>
+									<span><i class="fa fa-facebook"></i></span>
+									<span><i class="fa fa-instagram"></i></span>
+								</li>
+							</ul>
+						</div>
+					</div>	
+					</div>
+				</div>
+			</div>
+			<div class="footer-app">
+				<a href=""><img src=""></a><a href=""><img src=""></a>
+			</div>
+			<div class="copyright col-center">
+				<div class="flex-container">
+					<div class="inner">Privacy & Policy</div>
+					<div class="inner">Terms of Service</div>
+					<div class="inner">2021 min.ng. All Rights Reserved</div>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+var navList = document.getElementById("nav-lists");
+function Show() {
+navList.classList.add("_Menus-show");
+}
+
+function Hide(){
+navList.classList.remove("_Menus-show");
+}
+</script>
+
+</body>
+
+</html>
